@@ -11,6 +11,7 @@ public class Application {
         Lab mlab = new Lab();
         System.out.println("The Math class should help you get the result of 2^3, which is 8. Current result:");
         double result = mlab.mathPow(2,3);
+        //double result = mlab.mathPow(10,5);
         System.out.println(result);
     }
 }

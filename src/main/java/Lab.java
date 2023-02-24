@@ -1,3 +1,5 @@
+//import java.lang.FdLibm.Pow;
+//import java.lang.Math;
 
 public class Lab {
     /**
@@ -20,6 +22,15 @@ public class Lab {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        return 0;
+        //return 0;
+        //return Math.pow(a, b);
+        double power=1; 
+        int i=0; 
+        while (i<b)
+        {
+            power=power*a; 
+            i++;
+        }
+        return power; 
     }
 }
